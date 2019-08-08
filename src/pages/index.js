@@ -17,7 +17,7 @@ class Index extends Component {
                 </section>
                 <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.</p>
                 <ul className="actions">
-                  <li><a class="custom-btn" href="#" role="button">Learn More</a></li>
+                  <li><a className="custom-btn" href="#" role="button">Learn More</a></li>
                 </ul>
               
               </div>

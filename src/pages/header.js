@@ -10,12 +10,15 @@ class Header extends Component {
           <div className="menu-wrap">
             <Link to="/" className="logo">My App</Link>
               <ul className="nav">
+                <li className="close-button">x</li>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/blog">blog</Link></li>
                 <li><Link to="/contactus">Contact Us</Link></li>
                 <li><Link to="/posts">Posts</Link></li>
               </ul>
-              <span className="mobile-menu"></span>
+              <span className="menu-box">
+                <span className="mobile-menu"></span>
+              </span>
             </div>
         </div>
     </header>

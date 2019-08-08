@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
+import { BrowserRouter } from "react-router-dom";
+import { Route } from "react-router-dom";
 import App from './App'
 import Blog from './pages/blog'
 import Footer from './pages/footer'
@@ -11,7 +12,7 @@ import Topics from './topics'
 
 
 const routing = (
-  <Router>
+  <BrowserRouter>
     <div>     
       <Route exact path="/" component={App} />
       <Route path="/blog" component={Blog} />
@@ -19,6 +20,6 @@ const routing = (
       <Route path="/posts" component={Posts} />
       <Route path='/post/:title' component={Topics} />
     </div>
-  </Router>
+  </BrowserRouter>
 )
 ReactDOM.render(routing, document.getElementById('root'))

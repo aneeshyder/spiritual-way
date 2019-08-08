@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 class FrontpageItem extends React.Component {
@@ -8,8 +9,8 @@ class FrontpageItem extends React.Component {
     let postLoop = posts.map((post, index)=> {
       return (
         <div className="col-md-4" key={index}>
-          <div className="post-thumbnail">
-            <a href={"post/" + post.slug}>
+          <div className="post-thumbnail">           
+            <Link to={'post/' + post.slug} >
               <article className='xiong-block py-4 text-center'> 
                 <div className="post-feature-image">
                   <img src={post._embedded['wp:featuredmedia']['0'].source_url} />
@@ -19,7 +20,7 @@ class FrontpageItem extends React.Component {
                   <h3>{post.title.rendered}</h3>          
                 </div>                
               </article>        
-            </a>
+            </Link>
           </div>
         </div>
       )

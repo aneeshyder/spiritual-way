@@ -6,7 +6,7 @@ import Index from './pages/index.js';
 class App extends Component {
   render() {
     return (
-      <div id="main">
+      <div id="main" className="home">
         <div className="inner">
          <Layout>
           <Index />

@@ -1,9 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import { BrowserRouter } from "react-router-dom";
-import { Route } from "react-router-dom";
-import { Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import App from './App'
 import Blog from './pages/blog'
 import Footer from './pages/footer'
@@ -13,7 +11,7 @@ import Topics from './topics'
 
 
 const routing = (
-  <BrowserRouter>
+  <Router>
   	<Switch>
 	    <div>     
 	      <Route exact path="/" component={App} />
@@ -23,6 +21,6 @@ const routing = (
 	      <Route path='/post/:title' component={Topics} />
 	    </div>
     </Switch>
-  </BrowserRouter>
+  </Router>
 )
 ReactDOM.render(routing, document.getElementById('root'))

@@ -327,7 +327,11 @@ div#main {
     border: 1px solid #0e0e0e;
     text-decoration: none;
 }
-
+@media screen and (max-width:1199px) {
+  .posts-wrapper.row .col {
+    margin-bottom: 20px;
+  }
+}
 @media screen and (max-width:980px) {
   .container.posts article .post-title h3 {
     font-size: 18px
@@ -364,10 +368,6 @@ div#main {
 }
 
 @media screen and (max-width:767px) {
-  .post-thumbnail {
-    margin-bottom: 25px
-  }
-
   a.logo {
     font-size: 35px
   }

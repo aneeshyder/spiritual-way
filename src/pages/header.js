@@ -11,7 +11,7 @@ class Header extends Component {
       <header id="header" className="py-4">
         <div className="container">
           <div className="menu-wrap">
-            <Link to="/" className="logo">My App</Link>
+            <Link to="/" className="logo">Spiritual Way</Link>
               <ul className="nav">
                 <li className="close-button" onClick={this.closeMenu}>x</li>
                 <li><Link to="/" onClick={this.closeMenu}>Home</Link></li>

@@ -24,9 +24,11 @@ class Topics extends React.Component {
     .then(response => response.json())
     .then(response => {
       this.setState({
-        user: response
+        user: response,
+        isLoading: true,
       })
     })
+    .catch(error => this.setState({ error, isLoading: false }));
   }
 
   render() {

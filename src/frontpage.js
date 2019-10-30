@@ -8,7 +8,7 @@ class FrontpageItem extends React.Component {
     
     let postLoop = posts.map((post, index)=> {
       return (
-        <div className="col-md-4" key={index}>
+        <div className="col-xl-3 col-lg-4 col-sm-6 col col-12" key={index}>
           <div className="post-thumbnail">           
             <Link to={'post/' + post.slug} >
               <article className='xiong-block py-4 text-center'> 

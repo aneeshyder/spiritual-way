@@ -37,7 +37,7 @@ ul.actions { list-style-type: none; padding-left: 0 }
 .narrow-wrap { max-width: 750px; margin: 0 auto; width: 100% }
 .narrow-wrap .img-section img { max-width: 500px; width: 100% }
 .contactus .banner { position: relative; padding: 45px 0; background-position: center; background-size: initial;}
-.contactus .banner h1:before { content: '';position: absolute;top:0; height: 250px;width: 250px;background-image: url(images/contactus.png); background-size: cover;left: 50%; transform: translateX(-50%);}
+.contactus .banner h1:before { content: '';position: absolute;top:0; height: 250px;width: 250px;background-image: url(images/contactus.svg); background-size: cover;left: 50%; transform: translateX(-50%);}
 .contactus .banner h1 { font-weight: 800; padding-top: 250px;position: relative;}
 .contactus form { max-width: 350px; width: 100%; margin: 0 auto; padding: 30px 0 }
 .post-detail-wrapper .container iframe { width: 100% !important; height: auto !important }

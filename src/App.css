@@ -18,11 +18,11 @@ header a.logo { font-family: 'Source Sans Pro', sans-serif; display: inline-bloc
 header a.logo:hover {color: #70c3ea; }
 .nav li { float: left; padding: 5px 20px }
 .nav li a { text-decoration: none; color: #fff;    font-family: 'Source Sans Pro', sans-serif; font-weight: 600; letter-spacing: 2px;  -webkit-transition: all .25s ease; -moz-transition: all .25s ease; -ms-transition: all .25s ease; -o-transition: all .25s ease; transition: all .25s ease }
-.nav li a:hover { text-decoration: none; color: #6651c1 }
-header { text-align: center ;background-color: #d39e00;}
+.nav li a:hover { text-decoration: none; color: #000 }
+header { text-align: center ;background-color: #5ab2a1;}
 .home header { background-color: transparent; }
-footer { background-color: #d39e00; color: #fff; padding: 25px 0; text-align: center }
-.home footer { background-color:  }
+footer { background-color: #5ab2a1; color: #fff; padding: 25px 0; text-align: center }
+.home footer { background-color: #000  }
 footer a { color: #fff; text-decoration: underline }
 .image img { width: 100% }
 .home .inner #banner * { color: #fff }
@@ -58,7 +58,7 @@ div#main { background-image: url(images/main-bg.jpg); background-size: cover }
 .contact-form a { background-color: #0e0e0e; padding: 7px 10px; border-radius: 5px; color: #fff; border: 1px solid #0e0e0e; transition: all ease 0.3s; }
 .contact-form a:hover { color: #0e0e0e; background-color: #fff; border: 1px solid #0e0e0e; text-decoration: none; }
 .loader-main { text-align: center;width: 100%; }
-.loader {border: 12px solid #f3f3f3; border-radius: 50%; border-top: 12px solid #3498db; width: 120px; height: 120px; margin:30px auto; -webkit-animation: spin 2s linear infinite; /* Safari */ animation: spin 2s linear infinite; }
+.loader {border: 12px solid #f3f3f3; border-radius: 50%; border-top: 12px solid #5ab2a1; width: 120px; height: 120px; margin:30px auto; -webkit-animation: spin 2s linear infinite; /* Safari */ animation: spin 2s linear infinite; }
 @media screen and (max-width:1199px) {
   .posts-wrapper.row .col { margin-bottom: 20px; }
 }

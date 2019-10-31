@@ -11,8 +11,8 @@ class Contactus extends Component{
 				<div className="banner">
 					<div className="container">
 					<div className="text-center py-3">
-						<h1>Contact US</h1>
-						<p>Let us  know how we can help you.</p>
+						<h1>We would love to hear from you</h1>
+						<p>Please find below contact details and reach us out soon..!</p>
 					</div>
 					</div>
 				</div>

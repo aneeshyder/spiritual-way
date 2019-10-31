@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
-import Layout from './pages/layout.js';
 import Index from './pages/index.js';
+import Footer from './pages/footer'
+import Header from './pages/header'
 
 class App extends Component {
   render() {
     return (
       <div id="main" className="home">
         <div className="inner">
-         <Layout>
+         <Header />
           <Index />
-          </Layout>
+          <Footer />
 
         </div>
       </div>

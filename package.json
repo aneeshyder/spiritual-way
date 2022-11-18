@@ -10,7 +10,7 @@
     "react-render-html": "^0.6.0",
     "react-resolve": "^1.0.3",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
